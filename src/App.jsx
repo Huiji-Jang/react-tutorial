@@ -17,9 +17,13 @@ function App(){
     return (
       <div>
         <img 
-          src="https://randomuser.me/api/portraits/women/18.jpg" style={{borderRadius: '50%'}}
+          src="https://randomuser.me/api/portraits/women/18.jpg"
           alt="" 
-          style={{display: 'block', margin: '0 auto'}} 
+          style={{
+            borderRadius: '50%',
+            display: 'block',
+            margin: '0 auto'
+          }} 
         />
         <div style={{textAlign: 'center', marginTop: '20px'}}>
           <Content text="이름 : 홍길동"/> 
